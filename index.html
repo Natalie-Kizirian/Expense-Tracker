@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Expense Tracker</h1>
+      <h3>
+        Your Balance is:
+        <span id="balance">0.00</span>
+        €
+      </h3>
+      <h3>Income: <span id="income">0.00</span> €</h3>
+      <h3>Expense: <span id="expense" >0.00</span>€</h3>
+      <input id="category-input" type="text" placeholder="Category" />
+      <input id="amount-input" type="number" placeholder="Amount" />
+      <div class="buttons">
+        <button id="expense-btn">Add Expense</button>
+        <button id="income-btn">Add Income</button>
+      </div>
+      
+
+      <ul id="list"></ul>
+    </div>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
