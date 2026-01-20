@@ -151,5 +151,14 @@ input {
   .wrapper {
     width: 80%;
   }
+   #list span:nth-child(1) {
+    width: 100%;
+    font-size: 1rem;
+  }
+  #list span:nth-child(2) {
+    width: 60%;
+    font-size: 0.8rem;
+  }
 }
+
 
