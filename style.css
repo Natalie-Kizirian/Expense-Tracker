@@ -110,6 +110,7 @@ h3 {
   border-radius: 4px;
   font-size: 1.1rem;
   cursor: pointer;
+  color: black;
 }
 .buttons #expense-btn {
   background-color: rgb(255, 159, 159);
@@ -117,6 +118,7 @@ h3 {
   border-radius: 4px;
   font-size: 1.1rem;
   cursor: pointer;
+  color: black;
 }
 
 input {
@@ -136,4 +138,17 @@ input {
 }
 .expense-minus {
   color: rgb(255, 159, 159);
+}
+@media (max-width: 460px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  h3 {
+    text-align: center;
+  }
+  .wrapper {
+    width: 80%;
+  }
 }
