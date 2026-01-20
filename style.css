@@ -89,7 +89,7 @@ body {
   background-color: rgba(243, 239, 239, 0.59);
 }
 .wrapper {
-  width: 55%;
+  width: 60%;
   border-radius: 16px;
   padding: 20px;
   margin: auto;
@@ -139,7 +139,7 @@ input {
 .expense-minus {
   color: rgb(255, 159, 159);
 }
-@media (max-width: 460px) {
+@media (max-width: 600px) {
   .buttons {
     display: flex;
     flex-direction: column;
@@ -152,3 +152,4 @@ input {
     width: 80%;
   }
 }
+
